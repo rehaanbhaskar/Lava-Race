@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -167,6 +168,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -207,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487971445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2541.651, y: -61.095703, z: 2347}
+  m_LocalPosition: {x: -2541.651, y: -16057, z: 15090}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -321,8 +323,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532698254}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -397,17 +400,17 @@ PrefabInstance:
     - target: {fileID: 6717091358583489852, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2098
       objectReference: {fileID: 0}
     - target: {fileID: 6717091358583489852, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 6717091358583489852, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6274
       objectReference: {fileID: 0}
     - target: {fileID: 6717091358583489852, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
         type: 3}
@@ -453,6 +456,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Track
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717091360205842993, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717091360205842993, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717091360599828783, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 691
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717091360599828783, guid: 1c0922d0e0f274ab9b086f1b94a3e452,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c0922d0e0f274ab9b086f1b94a3e452, type: 3}
